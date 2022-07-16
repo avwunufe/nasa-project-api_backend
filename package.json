@@ -1,0 +1,21 @@
+{
+  "name": "nasa-planets-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test --prefix server",
+    "test-watch": "npm run test-watch --prefix server",
+    "server": "npm run watch --prefix server",
+    "client": "npm start --prefix client",
+    "build": "npm run build --prefix client",
+    "watch": "npm run client & npm run server",
+    "cluster": "npm run cluster --prefix server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
